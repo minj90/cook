@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 헤더 영역 */
+
+header {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgb(0,0,0,0.2)), url("../images/main-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    
+}
+
+h1, h2, h3, h4, .gugi-font {
+    font-family: "Gugi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sns-links {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgb(0,0,0,0.2)), url("../images/sns-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .text{
+        font-size: 14px;
+    }
+}
+
+ #news{
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8), rgb(0,0,0,0.2)), url("../images/news-bg.jpg"); 
+    background-size: cover;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color:#ffc107 !important
+}
